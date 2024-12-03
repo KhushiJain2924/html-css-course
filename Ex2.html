@@ -9,17 +9,28 @@
     width: 80px;
     margin-right: 11px;
     cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .request-button:hover{
+    opacity: 0.7;
   }
   
   .cart-button{
     background-color: rgb(255, 216, 20);
     border:none;
     height: 25px;
-    width: 100px;
+    width: 120px;
     border-radius: 12px;
     font-weight: lighter;
     margin-right: 11px;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .cart-button:hover{
+    background-color: rgb(234, 177, 21);;
+  }
+  .cart-button:active{
+    opacity: 0.6;
   }
 
   .sign-button{
@@ -31,6 +42,10 @@
     border-radius: 5px;;
     margin-right: 11px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+  .sign-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   }
 
   .started-button{
@@ -44,20 +59,30 @@
     font-weight: bold ;
     margin-right:5px;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .started-button:hover{
+    background-color:rgb(85, 48, 141); ;
   }
 
   .download-button{
     background-color: white;
-    border-color: solid;
+    border-style: solid;
     border-radius: 3px;
-    border-width: 1px;
+    border-width: 0.50px;
+    border-color: grey;
     height: 25px;
     width: 73px;
     font-size: 10px;
-    color: rgb(108, 117, 125);
+    color: rgb(85, 92, 97);;
     font-weight: bold ;
     margin-right:11px;
     cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .download-button:hover{
+    background-color:rgb(85, 92, 97);
+    color: white;
   }
 
   .apply-button{
@@ -69,6 +94,10 @@
     width: 190px;
     margin-right:5px;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .apply-button:hover{
+    background-color: rgb(3, 48, 94);;
   }
 
   .save-button{
@@ -81,12 +110,22 @@
     border-radius:12px ;
     border-width: 1px;
     cursor: pointer;
+    border-style: solid;
+  }
+  .save-button:hover{
+    background-color:rgb(202, 223, 244); 
+    border-width:2px;
   }
 
   .amazon-link{
     color:rgb(0, 113, 133);
     cursor:pointer;
+    transition: color 0.15s;
   }
+  .amazon-link:hover{
+    color:rgba(130, 45, 6, 0.856);
+  }
+  
 
   .nike-para{
     color:black;
@@ -111,6 +150,13 @@
     border-radius: 12px;;
     font-weight: lighter;
     cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+  .buy-button:hover{
+    background-color: rgb(220, 101, 28);
+  }
+  .buy-button:active{
+    opacity: 0.6;
   }
 </style>
 
