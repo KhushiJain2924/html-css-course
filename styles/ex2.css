@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Button style</title>
-    <style>
-      .subscribe-button{
+.subscribe-button{
   background-color: rgb(204, 0, 0);
   color:white;
   border:none;
@@ -132,25 +127,3 @@ background-color: rgb(4, 120, 4);
  /* margin-left: 3px;
  margin-right: 3px; */
 }
-    </style>
-  </head>
-  <body>
-    <button class="subscribe-button">SUBSCRIBE</button>
-<BUTTON class="join-button">JOIN</BUTTON>
-<button class="tweet-button">Tweet</button><br><br>
-
-<button class="back-button">Back</button>
-<a href="https://www.google.com/search?q=page1&rlz=1C1PNFE_enIN1026IN1026&oq=page1&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIWCAIQLhivARjHARiABBiYBRiZBRieBTIVCAMQLhgKGK8BGMcBGIAEGJgFGJkFMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQLhgKGIAEMgkIBxAAGAoYgAQyCQgIEAAYChiABDIJCAkQABgKGIAE0gEIMTYyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">1</a>
-<a href="https://www.google.com/search?q=page1&rlz=1C1PNFE_enIN1026IN1026&oq=page1&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIWCAIQLhivARjHARiABBiYBRiZBRieBTIVCAMQLhgKGK8BGMcBGIAEGJgFGJkFMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQLhgKGIAEMgkIBxAAGAoYgAQyCQgIEAAYChiABDIJCAkQABgKGIAE0gEIMTYyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">2</a>
-<a href="https://www.google.com/search?q=page1&rlz=1C1PNFE_enIN1026IN1026&oq=page1&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIWCAIQLhivARjHARiABBiYBRiZBRieBTIVCAMQLhgKGK8BGMcBGIAEGJgFGJkFMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQLhgKGIAEMgkIBxAAGAoYgAQyCQgIEAAYChiABDIJCAkQABgKGIAE0gEIMTYyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">3</a>
-<a href="https://www.google.com/search?q=page1&rlz=1C1PNFE_enIN1026IN1026&oq=page1&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIWCAIQLhivARjHARiABBiYBRiZBRieBTIVCAMQLhgKGK8BGMcBGIAEGJgFGJkFMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQLhgKGIAEMgkIBxAAGAoYgAQyCQgIEAAYChiABDIJCAkQABgKGIAE0gEIMTYyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">4</a>
-<a href="https://www.google.com/search?q=page1&rlz=1C1PNFE_enIN1026IN1026&oq=page1&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIWCAIQLhivARjHARiABBiYBRiZBRieBTIVCAMQLhgKGK8BGMcBGIAEGJgFGJkFMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQLhgKGIAEMgkIBxAAGAoYgAQyCQgIEAAYChiABDIJCAkQABgKGIAE0gEIMTYyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">5</a>
-<button class="back-button">Next</button>
-<button class="strech-button">Strech</button>
-<button class="shadow-button">Shadow</button><br><br>
-<button class="one-button">One</button>
-<button class="one-button">Two</button>
-<button class="one-button">Three</button>
-  </body>
-</html>
-
