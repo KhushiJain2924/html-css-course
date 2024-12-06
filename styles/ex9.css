@@ -1,0 +1,57 @@
+.grid-1{
+  display: grid;
+  grid-template-columns:200px 75px;
+  margin-bottom: 50px;
+}
+.grid-2{
+  display: grid;
+  grid-template-columns:50px 1fr 75px;
+  margin-bottom:50px;
+}
+.grid-3{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  column-gap:20px;
+  row-gap:10px;
+  margin-bottom:50px;
+}
+
+.image-5{
+height:200px;
+width:200px;
+object-fit: cover;
+margin-bottom: 12px;
+}
+.oliver{
+font-family: Arial;
+font-weight: bold;
+margin-bottom: 4px;
+margin-left: 8px;
+}
+.friends{
+color: rgb(100, 100, 100);
+margin-left: 8px;
+margin-bottom: 12px;
+}
+.add-button{
+background-color: rgb(48, 91, 231);
+border: none;
+margin-left: 8px;
+border-radius: 4px;
+font-size: 16px;
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 20px;
+color: white;
+margin-bottom: 10px;
+}
+
+.three-profile{
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.grid-4{
+  display:grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap:25px;
+}
