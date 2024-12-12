@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flex-practice</title>
+    <style>
+      .div1{
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        width: 450px;
+      }
+      .flex1{
+       display: flex;
+       flex-direction: row;
+       margin-bottom: 20px;
+      }
+      .flex2{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .all-text{
+        padding-top: 10px;
+        padding-left: 20px;
+        color: rgb(58, 58, 58);
+        font-family: Arial;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      .profile-pic{
+       margin-top: 10px;
+        margin-left: 20px;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+      }
+      .chewy-text{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial;
+        margin-bottom: 5px;
+      }
+      .time{
+        color: rgb(58, 58, 58);
+        font-family: Arial;
+      }
+      .sales-text{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial;
+        margin-left: 20px;
+        
+      }
+      .hey-text{
+        color: rgb(58, 58, 58);
+        font-family: Arial;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+    <div>
+      <div class="all-text">ALL INBOXES</div>
+    </div>
+    <div class="flex1">
+      <div >
+        <img class="profile-pic" src="images/1.jpg">
+      </div>
+      <div >
+        <div class="flex2">
+          <div class="chewy-text">Chewy Promotions</div>
+          <div class="time">4:58 PM</div>
+        </div>
+        <div>
+          <div class="sales-text">Biggest sales of the year!</div>
+        </div>
+        <div>
+          <div class="hey-text">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
